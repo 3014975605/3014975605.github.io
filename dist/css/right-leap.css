@@ -1,0 +1,37 @@
+.right-leap li:nth-child(2) .hotline {
+  width: 140px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: -182px;
+  border: 1px solid #b2b2b2;
+  background-color: #fff;
+  padding: 10px; }
+  .right-leap li:nth-child(2) .hotline .hotline {
+    border-bottom: 1px solid #ccc; }
+    .right-leap li:nth-child(2) .hotline .hotline p {
+      font-size: 14px;
+      color: #000;
+      text-align: left;
+      line-height: 26px; }
+    .right-leap li:nth-child(2) .hotline .hotline .f_time {
+      color: #b2b2b2; }
+
+.right-leap li:nth-child(4) .pd12 {
+  width: 165px;
+  height: 150px;
+  border: 1px solid #b2b2b2;
+  position: absolute;
+  left: -200px;
+  top: 0;
+  padding: 7px; }
+  .right-leap li:nth-child(4) .pd12 a {
+    display: block;
+    border-bottom: 1px solid #b2b2b2; }
+    .right-leap li:nth-child(4) .pd12 a p {
+      font-size: 14px;
+      color: #000;
+      text-align: left;
+      line-height: 26px; }
+    .right-leap li:nth-child(4) .pd12 a .f_time {
+      color: #b2b2b2; }

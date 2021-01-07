@@ -1,0 +1,241 @@
+.w {
+  width: 1220px;
+  margin: 0 auto; }
+
+body {
+  height: 6000px; }
+
+#advertising {
+  height: 100px;
+  position: relative;
+  overflow: hidden; }
+  #advertising span {
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10; }
+
+.subnav {
+  height: 40px;
+  background-color: #404040; }
+  .subnav div {
+    width: 1200px; }
+    .subnav div .left {
+      float: left; }
+      .subnav div .left li {
+        float: left; }
+        .subnav div .left li a {
+          display: block;
+          width: 70px;
+          height: 40px;
+          color: #b2b2b2;
+          font-size: 14px;
+          line-height: 40px;
+          padding: 0 10px; }
+          .subnav div .left li a:hover {
+            color: #fff; }
+    .subnav div .right {
+      float: right; }
+      .subnav div .right li {
+        float: left;
+        margin: 0 20px;
+        line-height: 40px; }
+        .subnav div .right li a {
+          color: #b2b2b2;
+          font-size: 14px; }
+          .subnav div .right li a:hover {
+            color: #fff; }
+      .subnav div .right li:nth-child(1) span {
+        color: #b2b2b2;
+        margin: 0 10px; }
+      .subnav div .right .prosonal {
+        width: 100px;
+        height: 40px;
+        display: none;
+        position: relative;
+        cursor: pointer; }
+        .subnav div .right .prosonal span {
+          float: left;
+          width: 70px;
+          height: 40px;
+          line-height: 50px;
+          color: #b2b2b2;
+          text-align: right; }
+        .subnav div .right .prosonal i {
+          float: left;
+          margin-left: 10px;
+          line-height: 48px;
+          font-family: 'icomoon';
+          color: #b2b2b2; }
+        .subnav div .right .prosonal dl {
+          width: 100px;
+          height: 130px;
+          position: absolute;
+          top: 40px;
+          left: 0;
+          background-color: #fff;
+          z-index: 10000; }
+          .subnav div .right .prosonal dl dt, .subnav div .right .prosonal dl dd {
+            padding: 0;
+            height: 30px;
+            line-height: 40px;
+            text-align: center; }
+            .subnav div .right .prosonal dl dt:hover, .subnav div .right .prosonal dl dd:hover {
+              background-color: #f2f2f2; }
+            .subnav div .right .prosonal dl dt a, .subnav div .right .prosonal dl dd a {
+              color: #666666; }
+      .subnav div .right li:last-child {
+        background-color: #00a8ff; }
+        .subnav div .right li:last-child a {
+          display: block;
+          width: 120px;
+          height: 40px;
+          padding-left: 40px;
+          box-sizing: border-box;
+          position: relative;
+          background-color: rgba(255, 255, 255, 0.1);
+          font-size: 14px;
+          color: #fff; }
+          .subnav div .right li:last-child a i {
+            font-family: 'icomoon';
+            font-size: 24Frightx;
+            position: absolute;
+            left: 5px;
+            top: 3px;
+            color: #fff; }
+
+.header {
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative; }
+  .header .down-act {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    z-index: 100; }
+    .header .down-act ul {
+      width: 1220px;
+      margin: 0 auto; }
+      .header .down-act ul li {
+        width: 185px;
+        height: 150px;
+        float: left;
+        margin-right: 18px; }
+        .header .down-act ul li:hover p {
+          color: #00a8ff; }
+        .header .down-act ul li img {
+          width: 100%;
+          height: 100%;
+          margin: 16px 0px 5px 0px; }
+        .header .down-act ul li p {
+          color: #b2b2b2; }
+  .header .down {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    z-index: 100; }
+    .header .down ul {
+      width: 1220px;
+      margin: 0 auto; }
+      .header .down ul li {
+        width: 170px;
+        height: 75px;
+        float: left;
+        text-align: center; }
+        .header .down ul li:hover p {
+          color: #00a8ff; }
+        .header .down ul li:hover img {
+          opacity: 1; }
+        .header .down ul li p {
+          color: #b2b2b2; }
+        .header .down ul li img {
+          margin-bottom: 6px;
+          opacity: 0.5; }
+  .header .w {
+    padding-top: 20px;
+    height: 100px;
+    padding-left: 234px;
+    box-sizing: border-box;
+    position: relative; }
+    .header .w .logo {
+      width: 150px;
+      height: 60px;
+      position: absolute;
+      left: 0;
+      top: 20px; }
+      .header .w .logo a {
+        display: block;
+        width: 150px;
+        height: 60px;
+        position: absolute;
+        left: 0;
+        top: 0; }
+        .header .w .logo a img {
+          display: block;
+          width: 100%; }
+    .header .w .activity {
+      position: absolute;
+      top: 20px;
+      left: 174px; }
+    .header .w ul {
+      width: 570px; }
+      .header .w ul li {
+        float: left; }
+        .header .w ul li a {
+          display: block;
+          height: 60px;
+          line-height: 60px;
+          padding: 0 14px;
+          font-size: 14px;
+          padding-bottom: 20px; }
+          .header .w ul li a:hover {
+            color: #35abf2; }
+    .header .w .searchbar {
+      width: 347px;
+      height: 67px;
+      position: absolute;
+      top: 20px;
+      right: 0; }
+      .header .w .searchbar .search {
+        height: 40px; }
+        .header .w .searchbar .search input {
+          width: 300px;
+          height: 40px;
+          border: 1px solid #a29e9f;
+          padding-left: 5px;
+          color: #b2b2b2; }
+        .header .w .searchbar .search button {
+          display: inline-block;
+          height: 42px;
+          width: 40px;
+          padding: 0px;
+          border: 1px solid #a29e9f;
+          line-height: 42px;
+          text-align: center;
+          color: #666; }
+          .header .w .searchbar .search button:hover {
+            background-color: #00a8ff;
+            color: #fff; }
+          .header .w .searchbar .search button i {
+            font-family: 'icomoon'; }
+      .header .w .searchbar .hotwords {
+        padding-top: 10px; }
+        .header .w .searchbar .hotwords a {
+          margin-right: 12px;
+          font-size: 14px; }
+          .header .w .searchbar .hotwords a:nth-child(1) {
+            color: #35abf2; }
+          .header .w .searchbar .hotwords a:hover {
+            color: #35abf2; }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 6000px;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+<script>
+    //函数防抖
+    function perventShaking(fnName,delay){
+        var timer;
+        return function(){
+         clearInterval(timer);
+        timer= setInterval(function(){
+            fnName();
+        },delay)
+        }
+    }
+    let a=1;
+    console.log(a);
+</script>
+</html>

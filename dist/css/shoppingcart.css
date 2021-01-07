@@ -1,0 +1,180 @@
+.center {
+  background-color: #f2f2f2;
+  padding-top: 30px; }
+  .center .w .title {
+    background-color: #fff;
+    height: 50px;
+    padding-left: 10px; }
+    .center .w .title ul li {
+      line-height: 50px;
+      float: left;
+      color: #666666; }
+      .center .w .title ul li:nth-child(1) {
+        width: 118px;
+        height: 50px; }
+        .center .w .title ul li:nth-child(1) input {
+          width: 16px;
+          height: 16px;
+          margin-top: 10px;
+          vertical-align: text-bottom; }
+        .center .w .title ul li:nth-child(1) span {
+          padding-left: 10px;
+          padding-bottom: 5px; }
+      .center .w .title ul li:nth-child(2) {
+        width: 490px;
+        height: 50px; }
+      .center .w .title ul li:nth-child(3) {
+        width: 110px;
+        height: 50px; }
+      .center .w .title ul li:nth-child(4) {
+        width: 100px;
+        height: 50px; }
+      .center .w .title ul li:nth-child(5) {
+        width: 100px;
+        height: 50px; }
+      .center .w .title ul li:nth-child(6) {
+        width: 100px;
+        height: 50px; }
+      .center .w .title ul li:nth-child(7) {
+        width: 100px;
+        height: 50px; }
+      .center .w .title ul li:nth-child(8) {
+        width: 46px;
+        height: 50px; }
+  .center .w .message {
+    margin-top: 10px; }
+    .center .w .message .good {
+      margin-bottom: 10px; }
+      .center .w .message .good ul {
+        height: 120px;
+        padding-left: 10px;
+        background-color: #fff;
+        line-height: 120px; }
+        .center .w .message .good ul li {
+          float: left;
+          height: 100%; }
+          .center .w .message .good ul li:nth-child(1) {
+            width: 118px; }
+            .center .w .message .good ul li:nth-child(1) input {
+              vertical-align: text-bottom;
+              width: 16px;
+              height: 16px; }
+          .center .w .message .good ul li:nth-child(2) img {
+            width: 100px;
+            height: 100px; }
+          .center .w .message .good ul li:nth-child(2) p {
+            display: inline-block;
+            width: 353px;
+            line-height: 25px;
+            font-size: 14px;
+            color: #333333; }
+          .center .w .message .good ul li:nth-child(3) {
+            width: 110px;
+            text-align: center;
+            font-size: 14px; }
+          .center .w .message .good ul li:nth-child(4) {
+            width: 96px;
+            padding-top: 50px;
+            box-sizing: border-box; }
+            .center .w .message .good ul li:nth-child(4) div {
+              height: 25px;
+              border: 1px solid #ccc; }
+              .center .w .message .good ul li:nth-child(4) div span {
+                width: 30px;
+                height: 25px;
+                box-sizing: border-box;
+                float: left;
+                color: #666666;
+                font-size: 18px;
+                text-align: center;
+                line-height: 25px;
+                cursor: pointer; }
+                .center .w .message .good ul li:nth-child(4) div span:hover {
+                  background-color: #ccc; }
+              .center .w .message .good ul li:nth-child(4) div i {
+                width: 30px;
+                height: 25px;
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                line-height: 25px; }
+          .center .w .message .good ul li:nth-child(5) {
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            color: #666666;
+            font-size: 14px; }
+          .center .w .message .good ul li:nth-child(6) {
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            color: #666666;
+            font-size: 14px; }
+          .center .w .message .good ul li:nth-child(7) {
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            color: #666666;
+            font-size: 14px; }
+          .center .w .message .good ul li:nth-child(8) {
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            color: #666666;
+            font-size: 14px; }
+            .center .w .message .good ul li:nth-child(8) span {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              cursor: pointer; }
+    .center .w .message .prompt {
+      height: 30px;
+      line-height: 30px;
+      background-color: #fff;
+      text-align: center;
+      margin-top: 50x;
+      font-size: 18x;
+      color: #666666;
+      display: none; }
+  .center .w .total {
+    height: 70px;
+    margin-top: 10px;
+    background-color: #fff; }
+    .center .w .total ul li {
+      line-height: 70px;
+      float: left; }
+      .center .w .total ul li:nth-child(1) {
+        width: 64px;
+        height: 70px;
+        padding: 0 15px;
+        font-size: #666666;
+        margin-right: 30px; }
+      .center .w .total ul li:nth-child(2) {
+        width: 162px;
+        font-size: 14px;
+        height: 70px; }
+        .center .w .total ul li:nth-child(2) span {
+          color: #00A8ff; }
+      .center .w .total ul li:nth-child(3) {
+        width: 158px;
+        height: 75px;
+        margin-left: 540px;
+        padding-right: 40px; }
+        .center .w .total ul li:nth-child(3) i {
+          color: #00A8ff; }
+        .center .w .total ul li:nth-child(3) span {
+          color: #ff0000;
+          font-size: 26px; }
+      .center .w .total ul li:nth-child(4) a {
+        display: inline-block;
+        background-color: #00a8ff;
+        width: 160px;
+        height: 44px;
+        color: #fff;
+        text-align: center;
+        line-height: 44px;
+        border-radius: 5px;
+        font-size: 18px; }
