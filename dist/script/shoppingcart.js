@@ -1,6 +1,6 @@
 $(function($){
     if(!localStorage.getItem('user')){
-        window.location.href='/pages/login.html';
+        window.location.href='../pages/login.html';
         return;
     }
     var goods=JSON.parse(localStorage.getItem('goods'));
@@ -33,7 +33,7 @@ $(function($){
               <li>￥0</li>
               <li>${item.score}</li>
               <li class='tt'>${item.total}</li>
-              <li>
+              <li cl>
                   <span class="close" code='${item.code}'>X</span>
               </li>
           </ul>
@@ -42,6 +42,7 @@ $(function($){
     $('.message').html(html);
     //////
     $('.minus').on('click',function(){
+        console.log($('.num span:eq(0)'))
         var that=$(this);
         var num=$(this).next('i').text();
         num--;
@@ -58,13 +59,6 @@ $(function($){
                   return;
                 }
             },$(this));
-            if(goods.length==0){
-                console.log($('.prompt'))
-                $('.prompt').show();
-                localStorage.removeItem('goods');
-                $(this).parent().parent().parent().parent().remove();
-                return;
-            }
             goods=JSON.stringify(goods);
             localStorage.setItem('goods',goods);
             $(this).parent().parent().parent().parent().remove();
@@ -77,6 +71,7 @@ $(function($){
                   that.parent().parent().parent().children('li').eq(6).text(item.total);
                   //合计的总数
                   total=$(this).parent().parent().siblings('li').eq(0).children('input').prop('checked')?(total-item.price):total;
+                  console.log(this.parent().parent().siblings('li').eq(0).children('input').prop('checked'))
                   $('.total ul li:eq(2) span').text('￥'+total);
                   return;
               }
@@ -113,21 +108,13 @@ $(function($){
       ////
       $('.close').on('click',function(){
         var goods=JSON.parse(localStorage.getItem('goods'));
-        var code=$(this).attr('code');
+        var code=$('.close').attr('code');
         goods.forEach(function(item,index){
             if(code==item.code){
               goods.splice(index,1);
               return;
             }
         });
-        console.log(goods)
-        console.log(code)
-        if(goods.length==0){
-            $('.prompt').show();
-            localStorage.removeItem('goods');
-            $(this).parent().parent().parent().remove();
-            return;
-        }
         goods=JSON.stringify(goods);
         localStorage.setItem('goods',goods);
           $(this).parent().parent().parent().remove();

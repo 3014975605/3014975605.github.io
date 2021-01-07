@@ -31,7 +31,7 @@ $(function($){
                  return;
              }
              $('.alert-danger').fadeIn(300).children('strong').text('登录成功');
-             window.location.href="/pages/index.html";
+             window.location.href="../pages/index.html";
       })
   })
 })

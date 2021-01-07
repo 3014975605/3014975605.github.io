@@ -25,7 +25,7 @@ $('.shoppingcart span').text(num);
         $('.exit').on('click',function(){
           localStorage.removeItem('user');
           window.location.reload();
-         window.location.href='/pages/index.html';
+         window.location.href='../pages/index.html';
           return false;
         })
       //   <dl class="pro-center">
